@@ -11,9 +11,9 @@ def state_log(generate_star_date)
   "Captain's Log, star date #{generate_star_date}."
   
 end
-binding.pry 
-def engage(star_date)
+ 
+def engage(generate_star_date)
   
-  puts state_log(star_date)
-generate_star_date
+  puts state_log(generate_star_date)
+
 end
