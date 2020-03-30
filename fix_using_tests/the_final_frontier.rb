@@ -12,7 +12,7 @@ def state_log(generate_star_date)
   
 end
  binding.pry 
-def engage(generate_star_date)
+def engage(state_log)
   
   state_log(generate_star_date)
 
